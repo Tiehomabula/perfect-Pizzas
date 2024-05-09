@@ -1,0 +1,48 @@
+body{
+    background-color:#107E7D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.small_pizza{
+    background-color:#610345;
+    flex:1
+}
+
+.medium_pizza{
+    background-color:#95190C;
+    flex:1
+}
+
+.large_pizza{
+    background-color:#044B7F ;
+    flex:1
+}
+
+.pizza{
+    border: 1px solid #e0e8ee;
+    padding:1em;
+    border-radius: 1em;
+    margin:1em;
+    margin-bottom:0.5em;
+
+}
+
+.contact_us{
+    background-color: #E3B505;
+}
+
+@media(min-width:760px){
+    body{
+        background-color: #107E7D;
+    }
+}
+
+@media(min-width:960px){
+    body{
+        background-color: aqua;
+    }
+    .pizzas{
+        display:flex;
+    }
+}
+
